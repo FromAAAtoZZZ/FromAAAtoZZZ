@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Morganite-Black';
+    src: url('Morganite-Black.ttf');
+}
+
+html, body {
+  background: #222;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: black;
+   background-image: url('./Home.jpg');
+   background-repeat: no-repeat;
+  background-size: 100% 60%;
+  background-position: center;
+}
+
+
+.panel {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	
+	
+}
+.right {
+	float: right;
+    margin-right: 10px;
+} 
+.element {
+	color: white;
+	font-size: 6rem;
+	text-align: center;
+	font-family: 'Morganite-Black';
+	margin: 5vh;
+}
